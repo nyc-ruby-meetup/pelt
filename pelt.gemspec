@@ -18,5 +18,4 @@ Gem::Specification.new do |gemspec|
   gemspec.add_dependency('haml', '>= 3.0.23')
   gemspec.files = %w(README VERSION.yml)
   gemspec.files += Dir.glob("lib/**/*")
-  gemspec.test_files += Dir.glob("features/**/*.*")
 end
