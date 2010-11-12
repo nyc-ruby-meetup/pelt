@@ -11,12 +11,20 @@
 .ui-accordion { 
   width: 100%; 
   .ui-accordion-header {
-    cursor: pointer; position: relative; margin-top: 1px; zoom: 1; 
+    cursor: pointer;
+    position: relative;
+    margin-top: 1px;
+    zoom: 1; 
     a { 
-      display: block; font-size: 1em; padding: .5em .5em .5em .7em; 
+      display: block;
+      font-size: 1em;
+      padding: .5em .5em .5em .7em; 
     }
     .ui-icon { 
-      position: absolute; left: .5em; top: 50%; margin-top: -8px; 
+      position: absolute;
+      left: .5em;
+      top: 50%;
+      margin-top: -8px; 
     }
   }
   .ui-accordion-li-fix { 
@@ -26,7 +34,15 @@
     border-bottom: 0 !important; 
   }
   .ui-accordion-content { 
-    padding: 1em 2.2em; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; zoom: 1; 
+    padding: 1em 2.2em;
+    border-top: 0;
+    margin-top: -2px;
+    position: relative;
+    top: 1px; 
+    margin-bottom: 2px; 
+    overflow: auto;
+    display: none;
+    zoom: 1; 
   }
   .ui-accordion-content-active { 
     display: block; 
