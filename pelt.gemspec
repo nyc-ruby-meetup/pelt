@@ -16,6 +16,6 @@ Gem::Specification.new do |gemspec|
   gemspec.rubygems_version = "1.3.7"
   gemspec.summary = %q{}
   gemspec.add_dependency('haml', '>= 3.0.23')
-  gemspec.files = %w(README VERSION.yml)
+  gemspec.files = %w(README.md VERSION.yml)
   gemspec.files += Dir.glob("lib/**/*")
 end
