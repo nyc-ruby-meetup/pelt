@@ -5,3 +5,4 @@ lib/jquery-ui/jquery-ui.css
 /.emacs.desktop
 /.emacs.desktop.lock
 lib/.sass-cache/
+.DS_Store
