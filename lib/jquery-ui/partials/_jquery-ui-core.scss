@@ -32,11 +32,22 @@
 
 .ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
-.ui-helper-clearfix { display: inline-block; }
+.ui-helper-clearfix { 
+  display: inline-block; 
+  &:after { 
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden; 
+  }
+}
 /* required comment for clearfix to work in Opera \*/
 * html .ui-helper-clearfix { height:1%; }
+
 .ui-helper-clearfix { display:block; }
 /* end clearfix */
+
 .ui-helper-zfix { 
   width: 100%;
   height: 100%;
